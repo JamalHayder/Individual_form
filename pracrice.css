@@ -1,9 +1,5 @@
 body  {
-
-  /*font-family: "Goudy Bookletter 1911", sans-serif;
-  color: black;*/
   text-align: center;
-  /*background-image: url("blur-bright.jpg");*/
   background-position: 100% 0;
   background-color: #9a1750;
 }
@@ -24,7 +20,7 @@ form {
     border-radius: .05em;
     background-color:#e3e2df;
     padding: 70px;
-    /*box-shadow:         3px 3px 5px 6px #ccc;*/
+
 }
 .shadow
 {
@@ -78,18 +74,7 @@ label span {
     text-align: right;
 }
 
-/*input, textarea {
-    -webkit-transition: all 0.30s ease-in-out;
-  -moz-transition: all 0.30s ease-in-out;
-  -ms-transition: all 0.30s ease-in-out;
-  -o-transition: all 0.30s ease-in-out;
-  outline: none;
-    font: 1em sans-serif;
-    width: 250px;
-    height: 50px;
-    box-sizing: border-box;
-    border: 1px solid #999;
-}*/
+
 input, textarea {
   -webkit-transition: all 0.30s ease-in-out;
   -moz-transition: all 0.30s ease-in-out;
@@ -111,29 +96,6 @@ input:focus, textarea:focus {
   margin: 5px 1px 3px 0px;
   border: 1px solid rgba(255,0,0,0.2);
 }
-/*input[type=eamil], textarea {
-  -webkit-transition: all 0.30s ease-in-out;
-  -moz-transition: all 0.30s ease-in-out;
-  -ms-transition: all 0.30s ease-in-out;
-  -o-transition: all 0.30s ease-in-out;
-  outline: none;
-  padding: 3px 0px 3px 3px;
-  margin: 5px 1px 3px 0px;
-  border: 1px solid #DDDDDD;
-}
-
-input[type=email]:focus, textarea:focus {
-  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
-  padding: 3px 0px 3px 3px;
-  margin: 5px 1px 3px 0px;
-  border: 1px solid rgba(81, 203, 238, 1);
-}*/
-/*input:required {
-  box-shadow: 4px 4px 20px rgba(200, 0, 0, 0.85);
-}
-form input:valid {
-  background: white;
-}*/
 
 
 }
